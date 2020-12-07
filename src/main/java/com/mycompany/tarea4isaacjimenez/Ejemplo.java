@@ -47,6 +47,11 @@ public class Ejemplo {
     public void setAtributo2(int atributo2) {
         this.atributo2 = atributo2;
     }
+
+    @Override
+    public String toString() {
+        return "Ejemplo{" + "atributo1=" + atributo1 + ", atributo2=" + atributo2 + ", atributo3=" + atributo3 + '}';
+    }
     
     
 }
