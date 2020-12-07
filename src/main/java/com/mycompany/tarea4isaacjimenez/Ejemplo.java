@@ -16,6 +16,9 @@ public class Ejemplo {
     private int atributo3;
 
     public Ejemplo() {
+        atributo1 = 1;
+        atributo2 = 2;
+        atributo3 = 3;
     }
 
     public Ejemplo(int atributo1, int atributo2, int atributo3) {
@@ -52,6 +55,5 @@ public class Ejemplo {
     public String toString() {
         return "Ejemplo{" + "atributo1=" + atributo1 + ", atributo2=" + atributo2 + ", atributo3=" + atributo3 + '}';
     }
-    
-    
+
 }
