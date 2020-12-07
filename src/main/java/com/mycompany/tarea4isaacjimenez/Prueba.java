@@ -10,5 +10,7 @@ package com.mycompany.tarea4isaacjimenez;
  * @author isaac
  */
 public class Prueba {
-    
+    public static void main(String[] args) {
+        
+    }
 }
